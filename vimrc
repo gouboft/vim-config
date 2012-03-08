@@ -36,3 +36,8 @@ set nobackup
 "Copy and paste key map
 vmap z "*y
 nmap z "*p
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+"For taglist
+map <silent> <F9> :TlistToggle<CR>
