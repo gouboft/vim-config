@@ -50,7 +50,7 @@ let g:mapleader = ","
 """"""""""""""""""""""""""""""
 "Taglist
 """"""""""""""""""""""""""""""
-map <silent> <F9> :TlistToggle<CR>
+map <silent> t :TlistToggle<CR>
 
 """"""""""""""""""""""""""""""
 " Netrw
