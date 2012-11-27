@@ -50,7 +50,7 @@ let g:mapleader = ","
 """"""""""""""""""""""""""""""
 "Taglist
 """"""""""""""""""""""""""""""
-map <silent> <C-l> :TlistToggle<CR>
+map <silent> t :TlistToggle<CR>
 
 """"""""""""""""""""""""""""""
 " Netrw
@@ -61,8 +61,12 @@ nmap <silent> <leader>fe :Hexplore!<CR>
 """"""""""""""""""""""""""""""
 " mark setting
 """"""""""""""""""""""""""""""
-nmap <silent> <F2> <Plug>MarkSet
-vmap <silent> <F2> <Plug>MarkSet
+nmap <silent> <leader>hl <Plug>MarkSet
+vmap <silent> <leader>hl <Plug>MarkSet
+nmap <silent> <leader>hh <Plug>MarkClear
+vmap <silent> <leader>hh <Plug>MarkClear
+nmap <silent> <leader>hr <Plug>MarkRegex
+vmap <silent> <leader>hr <Plug>MarkRegex
 
 """"""""""""""""""""""""""""""
 " lookupfile setting
