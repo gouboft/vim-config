@@ -50,7 +50,11 @@ let g:mapleader = ","
 """"""""""""""""""""""""""""""
 "Taglist
 """"""""""""""""""""""""""""""
-map <silent> t :TlistToggle<CR>
+map <silent> <C-l> <C-w>w
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_GainFocus_On_ToggleOpen = 0
+let Tlist_Auto_Open = 1
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 
 """"""""""""""""""""""""""""""
 " Netrw
